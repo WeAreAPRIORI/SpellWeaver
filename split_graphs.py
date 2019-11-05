@@ -32,7 +32,7 @@ def make_multiple_graphs(my_message,chords,my_file_size):
         D.append(di)
     # now we create the networks and display them!!!
     import matplotlib.pyplot as plt
-#    plt.ioff()
+    plt.ioff()
     import networkx as nx
     import math
     import numpy as np
@@ -69,5 +69,5 @@ def make_multiple_graphs(my_message,chords,my_file_size):
                 edgelist = list(G.edges),
                 edge_color = browny_color,
                 width = 2, alpha = .75)
-    plt.show()
+#    plt.show()
     return fig2;
