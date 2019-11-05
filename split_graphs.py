@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Created on Tue Sep  3 16:13:11 2019
-
 @author: Efren
 """
 
@@ -21,9 +18,6 @@ def make_multiple_graphs(my_message,chords,my_file_size):
     from computation_functions import create_treadle_sequence
     from computation_functions import create_threading_sequence
     from computation_functions import populate_matrix_binary
-#    Wl = [list(wi) for wi in my_words]
-#    Ts = [[create_threadle_sequence(wi)] for wi in Wl]
-#    Ss = [[create_threading_sequence(wi)] for wi in Wl]
     Ts = []
     Ss = []
     D = []
