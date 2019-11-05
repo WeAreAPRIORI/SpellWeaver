@@ -70,4 +70,4 @@ def make_multiple_graphs(my_message,chords,my_file_size):
                 edge_color = browny_color,
                 width = 2, alpha = .75)
 #    plt.show()
-    return fig2;
+    return ;
