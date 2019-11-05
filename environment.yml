@@ -5,4 +5,5 @@ dependencies:
   - numpy
   - matplotlib
   - networkx
-  -scipy
+  - scipy
+  - pygraphviz
